@@ -1,0 +1,12 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  box-shadow: 1px 1px 1px;
+}
+
+a{
+  display: flex;
+  align-items: end;
+}
+
