@@ -14,10 +14,10 @@ function Navbar() {
   }) 
   return (
     <div className='navbar'>
-      <div><Link to='/'><HomeIcon style={{color:'tomato'}}/></Link></div>
-      <div><Link to='/user'><PersonIcon style={{color:'tomato'}}/> </Link></div>
+      <div><Link to='/e-commerce/'><HomeIcon style={{color:'tomato'}}/></Link></div>
+      <div><Link to='/e-commerce/user'><PersonIcon style={{color:'tomato'}}/> </Link></div>
       <div className='cart_bar'>
-        <Link to='/cart'>
+        <Link to='/e-commerce/cart'>
           <ShoppingCartIcon style={{color:'tomato'}}></ShoppingCartIcon>
           <div>{cartQuantity}</div>
         </Link>
